@@ -7,10 +7,14 @@ es_backend = True
 
 print(nombre, edad, altura, es_backend)
 
-## Problemas de hoy:
-##
-## Fue dificil pushear el contenido a mi repositorio, porque la cuenta que yo estaba logueando no coincidia
-## con la cuenta que tenia logueadas en las credenciales de Windows: estaban LAS DOS.
-## Lo cual creó el problema de que al intentar pushear habia conflicto como si quisiera desde la cuenta A
-## pushear algo a la cuenta B como usuario distinto (que tecnicamente asi era, aunque no fuera lo que yo queria)
-## Resolvi eliminando la cuenta A desde el administrador de credenciales y continuando asi con el push satisfactorio.
+# Problema del día:
+# Dificultad al pushear el repositorio porque la cuenta de GitHub
+# configurada en Git no coincidía con las credenciales guardadas
+# en Windows (había dos cuentas activas).
+#
+# Esto generaba un error 403 al intentar pushear, como si un usuario
+# intentara subir cambios a un repositorio de otro.
+#
+# Solución:
+# Eliminar la cuenta antigua desde el Administrador de credenciales
+# de Windows y volver a pushear con la cuenta correcta.
